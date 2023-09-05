@@ -31,6 +31,7 @@ def determine_fastest_route(csv_file):
         print(f"The fastest route is {fastest_route}.")
     else:
         print("There is no significant difference in commute times between the two routes.")
+        print("p = " + str(p_value))
 
     # Plot commute time for each route
     plt.figure(figsize=(10, 6))

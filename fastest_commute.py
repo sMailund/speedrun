@@ -40,7 +40,7 @@ def determine_fastest_route(csv_file):
     plt.ylabel('Commute Time (seconds)')
     plt.title('Commute Time Comparison between Vippa and Kvadraturen')
     plt.grid(True)
-    plt.show()
+    plt.savefig("figure.png")
 
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
